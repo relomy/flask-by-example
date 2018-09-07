@@ -20,6 +20,9 @@ Flask-Script = "==2.0.6"
 Flask-SQLAlchemy = "==2.1"
 Mako = "==1.0.7"
 SQLAlchemy = "==1.2.11"
+requests = "*"
+"beautifulsoup4" = "*"
+nltk = "*"
 
 [dev-packages]
 
