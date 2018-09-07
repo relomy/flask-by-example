@@ -38,7 +38,6 @@ def index():
             for s in soup(['script', 'style']):
                 s.decompose()
             raw = ' '.join(soup.stripped_strings)
-            print(raw)
             nltk.data.path.append('./nltk_data/')  # set the path
             tokens = nltk.word_tokenize(raw)
             text = nltk.Text(tokens)
